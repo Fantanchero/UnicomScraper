@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Unicom Auto-Scraper",
+  "version": "1.0",
+  "description": "Extrae el catálogo completo de Unicom con un clic.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Extraer Catálogo Unicom"
+  },
+  "host_permissions": [
+    "*://*.unicom.com.uy/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
