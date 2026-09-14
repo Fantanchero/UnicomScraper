@@ -26,7 +26,7 @@ Puedes utilizar esta herramienta de dos maneras distintas:
 3. Activa el **"Modo desarrollador"** (Developer mode) utilizando el interruptor en la esquina superior derecha.
 4. Haz clic en el botón **"Cargar descomprimida"** (Load unpacked) en la parte superior izquierda.
 5. Selecciona la carpeta donde guardaste los archivos de la extensión.
-6. Inicia sesión en el portal web de UNICOM y navega a la sección del catálogo de productos.
+6. Navega a el portal web de UNICOM.
 7. Haz clic en el ícono de la extensión (en la barra superior de tu navegador) para iniciar la extracción.
 
 ### Opción 2: Ejecución manual desde la consola
@@ -36,7 +36,7 @@ Si prefieres no instalar la extensión, puedes inyectar el script manualmente:
 1. Inicia sesión en el portal web de UNICOM.
 2. Abre las herramientas para desarrolladores de tu navegador presionando `F12` (o `Ctrl + Shift + I` / `Cmd + Option + I` en Mac).
 3. Dirígete a la pestaña **Consola** (Console).
-4. Copia el contenido del script principal proporcionado en este repositorio y pégalo en la consola.
+4. Copia el contenido del script `scraper.js` proporcionado en este repositorio y pégalo en la consola.
 5. Presiona `Enter` para ejecutar.
 
 > **Nota:** En cualquiera de los dos métodos, el código procesará la información en pantalla y forzará automáticamente la descarga de un archivo `.json` en tu directorio local de descargas.
